@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- generate the styling for this form -->
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+        form input{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">Username</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <label for="pass">password</label>
+        <input type="password" id="pass" placeholder="Enter your password">
+        <label for="cs">confirm pass</label>
+        <input type="password" id="cs" placeholder="confirm your password">
+        <input type="submit" value="Submit">
+    </form>    
+</body>
+</html>
