@@ -1,14 +1,18 @@
-import './App.css'
-import {Button} from "@shadcn/ui"
+// import './App.css'
+import Header from './Components/Header/Header'
+import About from './Pages/About'
+import Hero from './Pages/Hero'
 // import Button from '@shadcn_ui'; // Default import
 
 
 function App() {
 
   return (
-    <>
-      <Button>Click Me</Button>
-    </>
+    <main>
+    <Header />
+    <Hero />
+    <About />
+    </main>
   )
 }
 
