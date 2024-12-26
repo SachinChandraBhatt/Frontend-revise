@@ -3,7 +3,7 @@ import Button from '../utils/Button'
 
 const Hero = () => {
   return (
-    <section className='flex flex-col w-full h-screen justify-center items-center px-7 lg:px-32 md:px-28 '>
+    <section className='flex flex-col w-full h-screen justify-center items-center px-7 lg:px-32 md:px-28'>
       <img src="C:\Users\Admin\OneDrive\Pictures\Screenshots\Screenshot (12).png" />
       <h2 className='md:text-3xl font-thin mb-6 text-center'>I am Sachin Chandra Bhatt</h2>
       <h1 className='md:text-6xl text-2xl font-medium mb-4 text-center'>Full Stack Web Developer</h1>
